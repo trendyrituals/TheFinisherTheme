@@ -60,6 +60,33 @@ function wpb_widgets($id){
 		'before_title' => '<h3>',
 		'after_title' => '</h3>'
 		));
+
+	register_sidebar(array(
+		'name' => 'Box4',
+		'id' => 'box4',
+		'before_widget' => '<div class="box">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3>',
+		'after_title' => '</h3>'
+		));
+
+	register_sidebar(array(
+		'name' => 'Box5',
+		'id' => 'box5',
+		'before_widget' => '<div class="box">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3>',
+		'after_title' => '</h3>'
+		));
+
+	register_sidebar(array(
+		'name' => 'Box6',
+		'id' => 'box6',
+		'before_widget' => '<div class="box">',
+		'after_widget' => '</div>',
+		'before_title' => '<h3>',
+		'after_title' => '</h3>'
+		));
 }
 
 add_action('widgets_init','wpb_widgets');

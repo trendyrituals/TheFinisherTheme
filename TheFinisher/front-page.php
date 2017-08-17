@@ -44,6 +44,37 @@
  
           </div>
 
+          <div class="col-md-4">
+            
+              <?php if (is_active_sidebar('box4')):?>
+
+                <?php dynamic_sidebar('box4');?>
+
+              <?php endif;?>
+ 
+          </div>
+
+          <div class="col-md-4">
+            
+              <?php if (is_active_sidebar('box5')):?>
+
+                <?php dynamic_sidebar('box5');?>
+
+              <?php endif;?>
+ 
+          </div>
+
+          <div class="col-md-4">
+            
+              <?php if (is_active_sidebar('box6')):?>
+
+                <?php dynamic_sidebar('box6');?>
+
+              <?php endif;?>
+ 
+          </div>
+
+
         </div>
       </div>
     </section>
