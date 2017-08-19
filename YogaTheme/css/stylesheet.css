@@ -1,0 +1,58 @@
+body{
+	font-family: 'Exo 2', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Exo 2', sans-serif;
+}
+
+.post-thumb img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+
+
+/*
+ * sidebar style
+ */
+.sidebar-module li{
+	list-style: none;
+	margin-left: -40px;
+	
+}
+
+/*
+ * Blog posts
+ */
+
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: .25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #999;
+}
+
+
+
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
